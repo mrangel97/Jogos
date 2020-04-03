@@ -130,7 +130,7 @@ def game():
             snake(SnakeXY)
             apple(apple_x, apple_y)
             pygame.display.update() #atualizar a janela atual
-            relogio.tick(10)
+            relogio.tick(15)
        
 
 game()
